@@ -32,7 +32,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 - 动漫头像生成
 
-   <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604737467-b96cdc56-80ba-4166-94f9-256e29658a45.png#averageHue=%23637183&id=FgHr8&originHeight=880&originWidth=1176&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;">
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604737467-b96cdc56-80ba-4166-94f9-256e29658a45.png#averageHue=%23637183&id=FgHr8&originHeight=880&originWidth=1176&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;">
 
 -  照片转动漫头像 
 
@@ -68,16 +68,14 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 1.2.2 效果展示
 
--  平台主题 
-   -  治愈风格
-   <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604737975-7395bd66-879a-4ffe-99c8-973709abb02e.png#averageHue=%2390692d&id=MrkfI&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
-   -  恐怖风格
-   <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738163-4fbb0455-548e-41af-aa50-f59099c0ea4e.png#averageHue=%23404238&id=I6hWj&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
--  主题活动 
-   -  儿童节主题背景
-   <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738343-acca1a6e-dd40-40b6-8d02-06236e10c089.png#averageHue=%236bb7d7&id=sb0pg&originHeight=832&originWidth=1248&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width: 400px;"/>
-   -  春节主题
-   <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738529-823227ce-92fb-4c33-a0bf-410e65d429a8.png#averageHue=%23081f38&id=DqSUV&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
+-  治愈风格 
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604737975-7395bd66-879a-4ffe-99c8-973709abb02e.png#averageHue=%2390692d&id=MrkfI&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
+-  恐怖风格
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738163-4fbb0455-548e-41af-aa50-f59099c0ea4e.png#averageHue=%23404238&id=I6hWj&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
+-  儿童节主题背景
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738343-acca1a6e-dd40-40b6-8d02-06236e10c089.png#averageHue=%236bb7d7&id=sb0pg&originHeight=832&originWidth=1248&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width: 400px;"/>
+-  春节主题
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738529-823227ce-92fb-4c33-a0bf-410e65d429a8.png#averageHue=%23081f38&id=DqSUV&originHeight=896&originWidth=1152&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px;"/>
 
 ##### 1.2.3实现原理
 
@@ -824,36 +822,14 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 * 案例一
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806897684-831039b0-5dab-4d06-991c-0f838da5d588.png#averageHue=%2333322f&clientId=uc16638a9-233f-4&from=drop&height=337&id=u4a728121&originHeight=1144&originWidth=912&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=1411225&status=done&style=none&taskId=u55b75981-cc4d-4025-9d08-5daf4b03d29&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=268.66668701171875 " style="width:400px; float:left; alt: 原图片;"/><img src="https://cdn.nlark.com/yuque/0/2024/jpeg/28014497/1712806930204-3ba82fb4-69fc-4430-9075-12fcdbc63e40.jpeg#averageHue=%23f2f2f5&clientId=uc16638a9-233f-4&from=drop&height=255&id=u587098fc&originHeight=450&originWidth=800&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=48884&status=done&style=none&taskId=u5223e4f2-71fb-40c3-8681-33ff28f66e3&title=%E7%BB%93%E5%A9%9A%E7%85%A7&width=452.66668701171875" style="width:400px; float:left; alt: 原婚纱照;"/>
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806971017-ea47deff-2504-4e39-903a-2070379cb8ec.png#averageHue=%23f2f3f5&clientId=uc16638a9-233f-4&from=drop&id=u711d9f5b&originHeight=450&originWidth=800&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=223485&status=done&style=none&taskId=ue1c09dd5-790f-473f-81da-5e2f2e9ae75&title=%E5%90%88%E6%88%90%E5%90%8E%E7%85%A7%E7%89%87" style="width:400px; float:left; alt: 合成后;margin-top:5px;"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806897684-831039b0-5dab-4d06-991c-0f838da5d588.png#averageHue=%2333322f&clientId=uc16638a9-233f-4&from=drop&height=337&id=u4a728121&originHeight=1144&originWidth=912&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=1411225&status=done&style=none&taskId=u55b75981-cc4d-4025-9d08-5daf4b03d29&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=268.66668701171875 " style="width:400px; float:left; alt: 原图片;"/><img src="https://cdn.nlark.com/yuque/0/2024/jpeg/28014497/1712806930204-3ba82fb4-69fc-4430-9075-12fcdbc63e40.jpeg#averageHue=%23f2f2f5&clientId=uc16638a9-233f-4&from=drop&height=255&id=u587098fc&originHeight=450&originWidth=800&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=48884&status=done&style=none&taskId=u5223e4f2-71fb-40c3-8681-33ff28f66e3&title=%E7%BB%93%E5%A9%9A%E7%85%A7&width=452.66668701171875" style="width:300px; float:left; alt: 原婚纱照;"/>
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806971017-ea47deff-2504-4e39-903a-2070379cb8ec.png#averageHue=%23f2f3f5&clientId=uc16638a9-233f-4&from=drop&id=u711d9f5b&originHeight=450&originWidth=800&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=223485&status=done&style=none&taskId=ue1c09dd5-790f-473f-81da-5e2f2e9ae75&title=%E5%90%88%E6%88%90%E5%90%8E%E7%85%A7%E7%89%87" style="width:300px; float:left; alt: 合成后;margin-top:5px;"/>
 
 
 * 案例二
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816449119-ee803cc7-e1ed-4679-9088-85213bf2bccd.png#averageHue=%23424e53&clientId=uc16638a9-233f-4&from=drop&height=360&id=u9ddec574&originHeight=1144&originWidth=912&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=1360289&status=done&style=none&taskId=u24392841-c043-4a73-9aca-5fac1963503&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=286.66668701171875" style="width:400px; float:left; alt: 原图片; margin-right: 300px;"/><img src="https://cdn.nlark.com/yuque/0/2024/jpeg/28014497/1712816486018-94e75369-83ad-47ef-9039-b8620fe4e7ab.jpeg#averageHue=%238b8b9c&clientId=uc16638a9-233f-4&from=drop&height=552&id=u6be39483&originHeight=1773&originWidth=1182&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=457905&status=done&style=none&taskId=uae716c83-09c3-4126-97b8-45ecb61ab4e&title=%E5%A9%9A%E7%BA%B1%E7%85%A7&width=367.66668701171875 " style="width:400px; float:left; margin-top:10px; alt: 原婚纱照;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816522851-0d2254d9-fe34-44f4-b8a6-bb775b94ff2c.png#averageHue=%238b8a9c&clientId=uc16638a9-233f-4&from=drop&height=553&id=u529da8da&originHeight=1773&originWidth=1182&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=2551858&status=done&style=none&taskId=uccdbd9ac-9aba-4be5-8c52-11583f4cc3b&title=%E5%90%88%E6%88%90%E5%90%8E%E7%85%A7%E7%89%87&width=368.66668701171875" style="width:400px; margin-top:10px; alt: 合成后婚纱照;;"/>
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816449119-ee803cc7-e1ed-4679-9088-85213bf2bccd.png#averageHue=%23424e53&clientId=uc16638a9-233f-4&from=drop&height=360&id=u9ddec574&originHeight=1144&originWidth=912&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=1360289&status=done&style=none&taskId=u24392841-c043-4a73-9aca-5fac1963503&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=286.66668701171875" style="width:400px; alt: 原图片;"/>
+<img src="https://cdn.nlark.com/yuque/0/2024/jpeg/28014497/1712816486018-94e75369-83ad-47ef-9039-b8620fe4e7ab.jpeg#averageHue=%238b8b9c&clientId=uc16638a9-233f-4&from=drop&height=552&id=u6be39483&originHeight=1773&originWidth=1182&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=457905&status=done&style=none&taskId=uae716c83-09c3-4126-97b8-45ecb61ab4e&title=%E5%A9%9A%E7%BA%B1%E7%85%A7&width=367.66668701171875 " style="width:400px; float:left; margin-top:10px; alt: 原婚纱照;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816522851-0d2254d9-fe34-44f4-b8a6-bb775b94ff2c.png#averageHue=%238b8a9c&clientId=uc16638a9-233f-4&from=drop&height=553&id=u529da8da&originHeight=1773&originWidth=1182&originalType=binary&ratio=1.5&rotation=0&showTitle=true&size=2551858&status=done&style=none&taskId=uccdbd9ac-9aba-4be5-8c52-11583f4cc3b&title=%E5%90%88%E6%88%90%E5%90%8E%E7%85%A7%E7%89%87&width=368.66668701171875" style="width:400px; margin-top:10px; alt: 合成后婚纱照;;"/>
 
 ##### 13.2.3 实现原理
 
