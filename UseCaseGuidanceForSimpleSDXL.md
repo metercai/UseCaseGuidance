@@ -5,7 +5,7 @@
 
 #### 1.1 社交平台头像设计
 
-> 社交平台头像设计不仅是个人的网络身份标识，也是个人风格和品味的体现，更是影响社交互动和第一印象的关键因素。对展现个人风格和品味、促进社交互动以及留下良好第一印象等方面都具有重要作用。
+社交平台头像设计不仅是个人的网络身份标识，也是个人风格和品味的体现，更是影响社交互动和第一印象的关键因素。对展现个人风格和品味、促进社交互动以及留下良好第一印象等方面都具有重要作用。
 
 
 ##### 1.1.1 场景说明
@@ -259,7 +259,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 [https://www.bilibili.com/video/BV1dC4y1Y77A](https://www.bilibili.com/video/BV1dC4y1Y77A)
 
 #### 4.2 绘画风格转换
-图生图技巧
+* 图生图技巧
 <img src="https://cdn.nlark.com/yuque/0/2024/png/40356799/1712963157138-7d72244e-4b03-4cd8-802d-5f38d0976c42.png#averageHue=%23cfceca&clientId=u0c897d9c-663e-4&from=paste&height=544&id=u33e43154&originHeight=578&originWidth=400&origintitleype=binary&ratio=1.0625&rotation=0&showTitle=false&size=504010&status=done&style=none&taskId=ua88a3d8b-7c7e-4b1e-a284-a9e55bbf895&title=&width=376.47058823529414" style="width:400px; float:left; title: 写实;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/40356799/1712963191687-54d8f902-f974-4c68-b464-868965eb4c90.png#averageHue=%23e4e0db&clientId=u0c897d9c-663e-4&from=paste&height=571&id=u5cf5f146&originHeight=607&originWidth=420&origintitleype=binary&ratio=1.0625&rotation=0&showTitle=false&size=440914&status=done&style=none&taskId=ua1e267a1-ad8c-47b2-b208-55b4d4c4291&title=&width=395.29411764705884" style="width:400px; title: 动漫;"/>
 
 ##### 4.2.1 场景说明
@@ -379,7 +379,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 5.4.3实现原理
 
-提示词反推，删除额外的提示词，配合图片提示。再使用局部重绘。
+	提示词反推，删除额外的提示词，配合图片提示。再使用局部重绘。
 
 ##### 5.4.4 视频案例
 
@@ -409,7 +409,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 6.1.1 场景说明
 
-保留了原始照片的基本形状和结构，还通过线条的勾勒和描绘，使图像呈现出一种独特的艺术风格。
+	保留了原始照片的基本形状和结构，还通过线条的勾勒和描绘，使图像呈现出一种独特的艺术风格。
 
 ##### 6.1.2 效果展示
 <img src="https://cdn.nlark.com/yuque/0/2024/webp/28014497/1711605003189-e32b9bab-cd5a-4b98-bc1a-ca0d3fea6ac2.webp#averageHue=%23d3f4fb&clientId=u0d9c7e8b-0018-4&from=ui&height=517&id=u416566d5&originHeight=889&originWidth=500&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=34346&status=done&style=none&taskId=ucafb014e-e612-4d9f-9ada-e052a568d0d&title=%E7%85%A7%E7%89%87&width=291" style="width:400px; float:left; title: 照片;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604741634-84d44df7-a3b4-417e-9a94-8a3b4d795069.png#averageHue=%23eff1f0&height=630&id=dqLNS&originHeight=888&originWidth=496&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E7%BA%BF%E7%A8%BF&width=352 " style="width:400px; title: 线稿;"/>
@@ -453,7 +453,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 6.1.3实现原理
 
-文本描述，添加线性风格和插画模型。
+	文本描述，添加线性风格和插画模型。
 
 ##### 6.1.4 视频案例
 
@@ -491,7 +491,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.1.1 场景说明
 
-将原本分散的信息和元素结合在一起，形成具有深意的整体画面。这种融合不仅丰富了作品的视觉效果，还有助于表达更为复杂、深刻的思想和情感。
+	将原本分散的信息和元素结合在一起，形成具有深意的整体画面。这种融合不仅丰富了作品的视觉效果，还有助于表达更为复杂、深刻的思想和情感。
 
 ##### 7.1.2 效果展示
 
@@ -504,7 +504,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.1.3实现原理
 
-通过图像提示添加必要的提示词。
+	通过图像提示添加必要的提示词。
 
 ##### 7.1.4 视频案例
 
@@ -522,7 +522,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.2.3实现原理
 
-多张图片结合文本提示。
+	多张图片结合文本提示。
 
 ##### 7.2.4 视频案例
 
@@ -545,7 +545,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.3.3实现原理
 
-使用局部重绘配合文本实现。
+	使用局部重绘配合文本实现。
 
 ##### 7.3.4 视频案例
 
@@ -557,7 +557,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.4.1 场景说明
 
-通过蒙版，我们可以对图像中的特定区域进行精确的选择和编辑，而不会影响到其他区域。
+	通过蒙版，我们可以对图像中的特定区域进行精确的选择和编辑，而不会影响到其他区域。
 
 ##### 7.4.2 效果展示
 <img src="https://cdn.nlark.com/yuque/0/2024/webp/28014497/1711605038136-7916377f-8501-4e5b-b8a2-cdef4688583a.webp#averageHue=%233c8d3a&clientId=u0d9c7e8b-0018-4&from=ui&height=220&id=u58a5cdb5&originHeight=313&originWidth=500&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=14106&status=done&style=none&taskId=u11a46a15-0601-4502-931e-1e5235a8f7d&title=%E5%8E%9F%E5%9B%BE&width=352" style="width:400px; float:left; title: 原图片;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711605046501-f1f3f350-83b5-4c42-b9c4-99500c252914.png#averageHue=%238c8c8c&clientId=u0d9c7e8b-0018-4&from=ui&height=235&id=ua71d4f10&originHeight=313&originWidth=500&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=18270&status=done&style=none&taskId=ub52cf08f-be69-4d56-a2e2-0d5d14ea30e&title=%E8%92%99%E7%89%88&width=375" style="width:400px; title: 蒙版;"/>
@@ -565,7 +565,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 7.4.3实现原理
 
-采用图像输入结合蒙版生成。
+	采用图像输入结合蒙版生成。
 
 ##### 7.4.4 视频案例
 
@@ -613,7 +613,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 8.3.1 场景说明
 
-采用SImpleSDXL可以快速实现原话设计，配合文本描述，可以生成更加有灵感的场景。
+	采用SimpleSDXL可以快速实现原话设计，配合文本描述，可以生成更加有灵感的场景。
 
 ##### 8.3.2 效果展示
 
@@ -621,7 +621,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 8.3.3实现原理
 
-文本提示设计场景，添加形象的图像提示。
+	文本提示设计场景，添加形象的图像提示。
 
 ##### 8.3.4 视频案例
 
@@ -631,7 +631,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 8.4.1 场景说明
 
-快速实现原画的场景风格实现，极大提升模型的设计效率。
+	快速实现原画的场景风格实现，极大提升模型的设计效率。
 
 ##### 8.4.2 效果展示
 
@@ -639,7 +639,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 8.5.3实现原理
 
-通过原画的元素和边缘检测，配合3Dlora实现。
+	通过原画的元素和边缘检测，配合3Dlora实现。
 
 ##### 8.5.4 视频案例
 
@@ -658,7 +658,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 9.1.3实现原理
 
-通过文本提示输入，配合电影质感风格。
+	通过文本提示输入，配合电影质感风格。
 
 ##### 9.1.4 视频案例
 
@@ -675,7 +675,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 9.2.3实现原理
 
-通过文本提示输入，配合电影质感风格。
+	通过文本提示输入，配合电影质感风格。
 
 ##### 9.2.4 视频案例
 
@@ -705,7 +705,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 10.2.1 场景说明
 
-能够从2D图像中自动生成3D模型，极大地简化了建模流程，缩短了制作周期。
+	能够从2D图像中自动生成3D模型，极大地简化了建模流程，缩短了制作周期。
 
 ##### 10.2.2 效果展示
 
@@ -713,7 +713,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 10.2.3实现原理
 
-采用Rev 3D模型，配合图片提示实现。
+	采用Rev 3D模型，配合图片提示实现。
 
 ##### 10.2.4 视频案例
 
@@ -730,7 +730,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 10.3.3实现原理
 
-可以根据文本提示，结合3D Lora实现3D场景渲染；或者采用图片场景进行3D转换。
+	可以根据文本提示，结合3D Lora实现3D场景渲染；或者采用图片场景进行3D转换。
 
 ##### 10.3.4 视频案例
 
@@ -741,7 +741,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 #### 11.1 AR/VR内容创作
 
 ##### 11.1.1 场景说明
-实现AR/VR形象的创作。
+	实现AR/VR形象的创作。
 ##### 11.1.2 效果展示
 
 <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604745666-44c52689-c512-439b-9805-1941bb04137f.png#averageHue=%23386994&id=HG8oP&originHeight=1152&originWidth=896&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left; title: 原图片;"/>
@@ -776,13 +776,13 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 11.3.1 场景说明
 
-生成360度全景图并添加3D形象。
+	生成360度全景图并添加3D形象。
 
 ##### 11.3.2 效果展示
 
 ##### 11.3.3实现原理
 
-生成全景图，并配合图片重绘实现3D形象插入。
+	生成全景图，并配合图片重绘实现3D形象插入。
 
 ##### 11.3.4 视频案例
 
