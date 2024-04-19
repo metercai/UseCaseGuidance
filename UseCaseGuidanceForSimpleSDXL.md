@@ -654,7 +654,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 	通过SimpleSDXL自动化地生成高质量的场景图像，极大地提高了设计效率。设计师只需输入相应的参数和描述，模型便能快速生成符合要求的场景，大大缩短了设计周期。
 
 ##### 9.1.2 效果展示
-<img src="assets/movie sence1.png" style="width:400px; float:left; title: 图片一;"/><img src="assets/movie sence2.png" style="width:400px; float:left; title: 图片二;"/><img src="assets/movie sence.png" style="width:400px; float:left; title: 图片二;"/>
+<img src="assets/moviesence1.png" style="width:400px; float:left; title: 图片一;"/><img src="assets/moviesence2.png" style="width:400px; float:left; title: 图片二;"/><img src="assets/moviesence.png" style="width:400px; float:left; title: 图片三;"/>
 
 ##### 9.1.3实现原理
 
@@ -691,7 +691,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 10.1.2 效果展示
 
-<img src="3d model 1.png" style="width:400px; float:left; title: 原图片;"/>
+<img src="3dmodel1.png" style="width:400px; float:left; title: 原图片;"/><img src="3dmodel2.png" style="width:400px; float:left; title: 图片2;"/>
 
 ##### 10.1.3实现原理
 
@@ -726,7 +726,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 	能够自动提取图像特征，生成高质量的3D场景渲染结果。这不仅减少了渲染所需的时间和人力成本，还提高了渲染的质量和逼真度，为用户带来了更加真实、细腻的视觉体验。
 ##### 10.3.2 效果展示
 
-
+<img src="3dsence1.png" style="width:400px; float:left; title: 图片1;"/><img src="3dsence2.png" style="width:400px; float:left; title: 图片2;"/><img src="3dsence3.png" style="width:400px; float:left; title: 图片3;"/>
 
 ##### 10.3.3实现原理
 
@@ -744,7 +744,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 	实现AR/VR形象的创作。
 ##### 11.1.2 效果展示
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604745666-44c52689-c512-439b-9805-1941bb04137f.png#averageHue=%23386994&id=HG8oP&originHeight=1152&originWidth=896&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left; title: 原图片;"/>
+<img src="assets/ar.png" style="width:400px; float:left; title: 原图片;"/>
 
 ##### 11.1.3实现原理
 
@@ -762,7 +762,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 11.2.2 效果展示
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604745852-d30f655a-ddd2-4e81-bd16-83c921731978.png#averageHue=%23645835&id=l1pmX&originHeight=1152&originWidth=896&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left; title: 原图片;"/>
+<img src="assets/armerge.png" style="width:400px; float:left; title: 原图片;"/>
 
 ##### 11.2.3实现原理
 
