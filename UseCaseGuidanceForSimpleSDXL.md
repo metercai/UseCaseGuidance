@@ -654,7 +654,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 	通过SimpleSDXL自动化地生成高质量的场景图像，极大地提高了设计效率。设计师只需输入相应的参数和描述，模型便能快速生成符合要求的场景，大大缩短了设计周期。
 
 ##### 9.1.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148068206-e09d4049-6238-48c8-b647-b76b20d69a43.png#averageHue=%23a4a8a2&clientId=ubc288b41-3078-4&from=ui&id=u80c26681&originHeight=1536&originWidth=2720&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=3990125&status=done&style=none&taskId=ucfdce6d8-5e5c-4d02-8e16-f5195333687&title=" style="width:400px; float:left; title: 图片一;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148724804-92dfd190-9fdf-4349-95ba-5c16814f90ef.png#averageHue=%23576166&clientId=ubc288b41-3078-4&from=ui&id=ua656eb17&originHeight=1536&originWidth=2720&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=5363161&status=done&style=none&taskId=ub64072eb-01cd-4a1b-93d7-b274b934e11&title=" style="width:400px; title: 图片二;"/>
+<img src="assets/movie sence1.png" style="width:400px; float:left; title: 图片一;"/><img src="assets/movie sence2.png" style="width:400px; float:left; title: 图片二;"/><img src="assets/movie sence.png" style="width:400px; float:left; title: 图片二;"/>
 
 ##### 9.1.3实现原理
 
@@ -671,7 +671,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 	可以生成具有各种风格、各种效果的特效图像，为电影特效设计提供了丰富的素材和灵感。这有助于设计师突破传统特效设计的限制，创造出更加独特、新颖的特效效果，提升电影的视觉冲击力和观赏性。
 
 ##### 9.2.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713151802184-2a6a07b3-6858-41b0-a807-c8f29b679137.png#averageHue=%236e513e&clientId=ubc288b41-3078-4&from=ui&id=u9d33451a&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=1228044&status=done&style=none&taskId=u290b3dc8-5715-4f96-b222-69a8d654eb3&title=" style="width:400px; float:left; title: 原图片;"/>
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148068206-e09d4049-6238-48c8-b647-b76b20d69a43.png#averageHue=%23a4a8a2&clientId=ubc288b41-3078-4&from=ui&id=u80c26681&originHeight=1536&originWidth=2720&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=3990125&status=done&style=none&taskId=ucfdce6d8-5e5c-4d02-8e16-f5195333687&title=" style="width:400px; float:left; title: 图片一;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148724804-92dfd190-9fdf-4349-95ba-5c16814f90ef.png#averageHue=%23576166&clientId=ubc288b41-3078-4&from=ui&id=ua656eb17&originHeight=1536&originWidth=2720&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=5363161&status=done&style=none&taskId=ub64072eb-01cd-4a1b-93d7-b274b934e11&title=" style="width:400px; float: left; title: 图片二;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713151802184-2a6a07b3-6858-41b0-a807-c8f29b679137.png#averageHue=%236e513e&clientId=ubc288b41-3078-4&from=ui&id=u9d33451a&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=1228044&status=done&style=none&taskId=u290b3dc8-5715-4f96-b222-69a8d654eb3&title=" style="width:400px; float:left; title: 原图片;"/>
 
 ##### 9.2.3实现原理
 
@@ -691,7 +691,7 @@ SimpleSDXL模型可以作为一个强大的创作辅助工具。设计师可以�
 
 ##### 10.1.2 效果展示
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604744596-d80f5a26-0e66-4bb5-9f33-8625c6416ca6.png#averageHue=%235b8b88&id=cQNGB&originHeight=512&originWidth=512&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left; title: 原图片;"/>
+<img src="3d model 1.png" style="width:400px; float:left; title: 原图片;"/>
 
 ##### 10.1.3实现原理
 
