@@ -663,7 +663,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 9.1.2 效果展示
 
-| ![](assets/moviesence1.png) | ![](assets/moviesence 2.png) | ![](assets/moviesence.jpg) |
+| ![](assets/moviesence1.png) | ![](assets/moviesence2.png) | ![](assets/moviesence.jpg) |
 | --------------------------- | ---------------------------- | -------------------------- |
 
 ##### 9.1.3实现原理
