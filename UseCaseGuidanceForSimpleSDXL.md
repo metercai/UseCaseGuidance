@@ -65,7 +65,9 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 1.2.3实现原理
 
-	用户可以根据社交账号的主题，通过文生图背景风格、色彩、元素，生成符合主题的背景图片。特定活动场景也可以依此生成。
+ 	1. 根据社交平台的定位或生成的主题，选择合适的大模型(写实、动漫等)
+ 	1. 编写文生图Prompt，描述图片的内容
+ 	1. 根据主题选择合适的风格生成
 
 ##### 1.2.4 视频案例
 
@@ -77,11 +79,12 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 1.3.2 效果展示
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738711-d9df41e6-99ec-4cb5-8f6e-e88a732fd1d3.png#averageHue=%23a8a48c&id=nx340&originHeight=1185&originWidth=349&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left;"/>
+![image-20240424102218706](assets/image-20240424102218706.png)
 
 ##### 1.3.3实现原理
 
-	可以采用文生图的方式，在文章相应场景配图。**后续可增加批量图片生成方式，用以实现统一风格的配图生成**。
+1. 根据上下文提取文生图提示词，选择主模型和风格，实现图片生成
+2. 可以配置通配符，实现批量图片生成
 
 ##### 1.3.4 视频案例
 
@@ -95,11 +98,15 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 - 公益宣传
 
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604738825-12975757-dc31-41d7-8dbf-199f8b0414f5.png#averageHue=%23668155&id=vFEbJ&originHeight=1360&originWidth=768&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left;"/>
+<img src="assets/bear.png" style="zoom:67%;" />
+
+* 广告宣传
+
+  <img src="assets/coca.png" style="zoom:67%;" />
 
 ##### 1.4.3实现原理
 
-	采用文生图，输入需要促销的内容和宣传主题文字内容，风格以及光线等必要条件，SimpleSDXL可以生成相应风格的图片。
+采用文生图，输入需要促销的内容和宣传主题文字内容，风格，光线和风格等必要条件。
 
 ##### 1.4.4 视频案例
 
@@ -136,7 +143,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 2.2.3实现原理
 
-	通过输入描述网站或组织特色的文本提示，调整图像的色彩、形状、布局等，以确保它们与网站或组织的品牌形象和视觉风格相契合。
+通过输入描述网站或组织特色的文本提示，调整图像的色彩、形状、布局等，以确保它们与网站或组织的品牌形象和视觉风格相契合。
 
 ##### 2.2.4 视频案例
 
@@ -154,7 +161,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 2.3.3实现原理
 
-	通过文生图功能，调整图标的颜色、形状、布局等细节，以确保其能够更好地体现品牌风格和传达目标信息。同时，设计师还可以结合其他设计元素，如字体、图标样式等，来增强图标的辨识度和吸引力。
+通过文生图功能，调整图标的颜色、形状、布局等细节，以确保其能够更好地体现品牌风格和传达目标信息。同时，设计师还可以结合其他设计元素，如字体、图标样式等，来增强图标的辨识度和吸引力。
 
 ##### 2.3.4 视频案例
 
@@ -190,7 +197,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 3.1.3实现原理
 
-	模型会根据输入的文本提示，生成一系列与建筑设计相关的图像。这些图像可能包括建筑的整体形态、立面设计、内部空间布局等。设计师可以从生成的图像中选择出符合设计需求的初步方案，并进一步进行优化和调整。
+模型会根据输入的文本提示，生成一系列与建筑设计相关的图像。这些图像可能包括建筑的整体形态、立面设计、内部空间布局等。设计师可以从生成的图像中选择出符合设计需求的初步方案，并进一步进行优化和调整。
 
 ##### 3.1.4 视频案例
 
@@ -206,7 +213,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 3.2.3实现原理
 
-	通过文本提示输入到模型中。这些文本提示可以描述空间的布局、家具的样式、色彩的运用等，以便模型能够根据这些提示生成相应的设计图像。
+通过文本提示输入到模型中。这些文本提示可以描述空间的布局、家具的样式、色彩的运用等，以便模型能够根据这些提示生成相应的设计图像。
 
 ##### 3.2.4 视频案例
 
@@ -222,7 +229,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 3.3.3实现原理
 
-	设计师需要明确家装设计的目标和需求，包括房间的功能布局、风格定位、色彩搭配以及材料选择等。这些需求将通过文本提示的方式输入，生成与家装设计相关的图像。这些图像可能包括房间的布局草图、家具摆放、装饰元素的呈现以及整体氛围的渲染等。
+设计师需要明确家装设计的目标和需求，包括房间的功能布局、风格定位、色彩搭配以及材料选择等。这些需求将通过文本提示的方式输入，生成与家装设计相关的图像。这些图像可能包括房间的布局草图、家具摆放、装饰元素的呈现以及整体氛围的渲染等。
 
 ##### 3.3.4 视频案例
 
@@ -240,11 +247,15 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 4.1.3实现原理
 
-	使用图像提示中的边缘检测，如果是3D模型需要加入3D检测，通过文本描述填充色彩和风格，也可以使用自动化Lora实现。
+使用图像提示中的边缘检测，如果是3D模型需要加入3D检测，通过文本描述填充色彩和风格，也可以使用自动化Lora实现。
+
+后续会加入recolor实现自动上色。
 
 ##### 4.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1dC4y1Y77A](https://www.bilibili.com/video/BV1dC4y1Y77A)
+- 主题: 线稿上色
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1dC4y1Y77A)
+- 博主: 吴杨峰
 
 #### 4.2 绘画风格转换
 * 图生图技巧
@@ -255,15 +266,23 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 在绘画风格转换场景中，SimpleSDXL可以为设计师提供更加多样化、创新的绘画风格展示。通过SimpleSDXL可以将自己的作品转换成不同的绘画风格，如印象派、立体派、抽象派等，以丰富作品的表现形式和艺术内涵。还可以根据需求和偏好进行个性化风格转换，为艺术创作提供更加高效、精准的方案。
 
 ##### 4.2.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604739531-deb74606-716e-413b-92b6-404323d9f416.png#averageHue=%235e6559&height=417&id=dmZBL&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E8%BD%AC%E6%8D%A2%E5%89%8D&width=332.66668701171875" style="width:400px; float:left; title: 动漫;"/> <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604739712-ebcaedc5-c982-4473-a896-9ff3e83a836e.png#averageHue=%23eed63d&height=417&id=Pvrtu&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E8%BD%AC%E6%8D%A2%E5%90%8E&width=332.66668701171875" style="width:400px; title: 写实;"/>
+
+| 动漫                                                         | 写实                                              |
+| ------------------------------------------------------------ | ------------------------------------------------- |
+| <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604739531-deb74606-716e-413b-92b6-404323d9f416.png#averageHue=%235e6559&height=417&id=dmZBL&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E8%BD%AC%E6%8D%A2%E5%89%8D&width=332.66668701171875" style="zoom:67%;" /> | <img src="assets/xieshi.png" style="zoom:67%;" /> |
 
 ##### 4.2.3实现原理
 
-	通过反推提示词，并采用不同风格的模型，并引入原图的边缘检测实现。
+1. 生成原照片或者获取现实中拍摄的图片
+2. 使用图像提示，配置边缘检测，深度检测和换脸
+3. 选择不同的模型和风格
+4. 加入文本提示词实现生成
 
 ##### 4.2.4 视频案例
 
-[https://www.bilibili.com/video/BV187421N7aR/](https://www.bilibili.com/video/BV187421N7aR/)
+- 主题: Fooocus图生图技巧
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV187421N7aR/)
+- 博主: 是说新语111
 
 #### 4.3 滤镜效果应用
 
@@ -272,12 +291,18 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 在滤镜效果应用场景中，通过SimpleSDXL，设计师可以将自己的图像应用不同的滤镜效果，如黑白、复古、艺术等，以增强图像的艺术感和表现力。同时可以根据设计师的需求和偏好进行个性化滤镜效果应用，为图像处理提供更加高效、精准的方案。
 
 ##### 4.3.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604739874-f9cae5e8-4dba-4f94-846b-ce826c9cd270.png#averageHue=%23dcbfb4&height=473&id=xpY12&originHeight=877&originWidth=658&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=355 " style="width:400px; float:left; title: 原照片;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604739976-288e8bd1-bc98-42b8-a518-d8e5389d7859.png#averageHue=%23c7cac9&height=473&id=rr4Ri&originHeight=872&originWidth=656&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%A4%8D%E5%8F%A4%E6%BB%A4%E9%95%9C&width=356" style="width:400px; title: 复古滤镜;"/>
+
+| 原照片                 | 白柔滤镜               |
+| ---------------------- | ---------------------- |
+| ![](assets/source.png) | ![](assets/lvjing.png) |
+
+
 
 
 ##### 4.3.3实现原理
 
-	可以设置不同的风格并并行图像提示实现。
+1. 输入图片，采用图片提示，包含脸部交换、边缘检测、结构深度、内容元素
+2. 更换模型或者采用不同的风格(白柔、黑柔等)实现图片输出
 
 ##### 4.3.4 视频案例
 
@@ -289,16 +314,21 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 通过SimpleSDXL，可以将一张图片的风格迁移到另一张图片上，实现风格的融合与转换。将自己的图像应用不同的艺术风格，如印象派、立体派、抽象派等。例如，可以将一幅古典油画的风格应用到现代摄影作品上，或将一种流行的艺术风格应用于产品设计图。
 
 ##### 4.4.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604740098-b151bbbc-3e5b-4ea1-951d-b61f88d0e3df.png#averageHue=%234d6545&height=271&id=OWCFX&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%8F%82%E8%80%83%E5%9B%BE&width=348.66668701171875" style="width:400px; float:left; title: 参考图;"/> <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604740242-b11f8bb5-6226-403b-9e06-e75c46b7e56e.png#averageHue=%23605c3f&height=470&id=MIsyx&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87&width=374.66668701171875" style="width:400px; title: 生成图片;"/>
+| 原照片               | 风格迁移               |
+| -------------------- | ---------------------- |
+| ![](assets/bird.png) | ![](assets/qianyi.png) |
+
 
 
 ##### 4.4.3实现原理
 
-	使用原图进行图像提示
+输入原图片，采用内容元素并添加相应的文本提示实现图片生成。
 
 ##### 4.4.4 视频案例
 
-[https://www.bilibili.com/video/BV16B4y1Z7LP/](https://www.bilibili.com/video/BV16B4y1Z7LP/)
+- 主题: Fooocus图生图技巧
+- 视频链接: [点击访问]([https://www.bilibili.com/video/BV16B4y1Z7LP/](https://www.bilibili.com/video/BV16B4y1Z7LP/))
+- 博主: AK智汇
 
 ### 5. 图像修复与增强
 
@@ -311,14 +341,16 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 ##### 5.1.2 效果展示
 <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604740394-bce62812-72fe-4fcb-9693-af813f589f2e.png#averageHue=%237f7f7f&height=436&id=NCJj0&originHeight=943&originWidth=705&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E4%BF%AE%E5%A4%8D%E5%89%8D&width=326" style="width:400px; float:left; title: 修复前;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604740503-7f4dcf1a-a458-42d6-947f-c5b92d30cce4.png#averageHue=%235c5d5e&height=439&id=Lwruj&originHeight=1152&originWidth=896&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E4%BF%AE%E5%A4%8D%E5%90%8E&width=341.66668701171875 " style="width:415px; title: 修复后;"/>
 
-
 ##### 5.1.3实现原理
 
-	通过图形提示图像提示(换脸/边缘/结构)，并结合增强变化(细微)。
+1. 采用图生图方式，在图片提示中，选择换脸交换、边缘检测
+2. 在放大与变化中，选择细微变化
 
 ##### 5.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1ue411m7nG/](https://www.bilibili.com/video/BV1ue411m7nG/)
+- 主题: 老照片修复实战教程
+- 视频链接: [点击访问]([[https://www.bilibili.com/video/BV1ue411m7nG/](https://www.bilibili.com/video/BV1ue411m7nG/))
+- 博主: 村边小河666
 
 #### 5.2 模糊图像清晰化
 
@@ -332,11 +364,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 5.2.3实现原理
 
-	采用SUPIR模型实现。
+​	加入SUPIR等清晰化的模型。
 
 ##### 5.2.4 视频案例
 
-[https://www.bilibili.com/video/BV1As4y117N7/?p=6&vd_source=6cd8d1dfaa0f6886f8825aab6a25e12e](https://www.bilibili.com/video/BV1As4y117N7/?p=6&vd_source=6cd8d1dfaa0f6886f8825aab6a25e12e)
+- 主题: 老照片修复+图片高清化+一键抠图超详细讲解
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1As4y117N7)
+- 博主: AI小王子Jay
 
 #### 5.3 图像超分辨率增强
 
@@ -349,11 +383,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 5.3.3实现原理
 
-通过放大算法实现。
+采用图片提示并结合放大(2倍加细节)。
 
 ##### 5.3.4 视频案例
 
-[https://www.bilibili.com/video/BV1As4y117N7/?p=6&vd_source=6cd8d1dfaa0f6886f8825aab6a25e12e](https://www.bilibili.com/video/BV1As4y117N7/?p=6&vd_source=6cd8d1dfaa0f6886f8825aab6a25e12e)
+- 主题: 老照片修复+图片高清化+一键抠图超详细讲解
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1As4y117N7)
+- 博主: AI小王子Jay
 
 #### 5.4 去除图像瑕疵或多余元素
 
@@ -362,16 +398,23 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 在图像处理和计算机视觉领域，图像瑕疵和多余元素是常见的问题，它们可能是由于图像采集设备的限制、图像传输过程中的失真或者图像处理算法的不足等原因引起的。这些瑕疵和多余元素会影响图像的质量和可用性，甚至会干扰图像的分析和识别。因此，去除图像瑕疵和多余元素是一个重要的研究方向和应用场景。使用SimpleSDXL，可以实现对图像瑕疵和多余元素的去除处理，提高图像的质量和可用性。
 
 ##### 5.4.2 效果展示
-<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604741155-b385427d-947f-4d3a-a21b-0a13e0654d38.png#averageHue=%23c7b4a6&height=552&id=e3ysC&originHeight=778&originWidth=519&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%8E%9F%E5%9B%BE%E7%89%87&width=368" style="width:400px; float:left; title: 原照片;"/><img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604741257-ef403166-d42f-4b86-8e03-92309ca6db35.png#averageHue=%23bba598&height=542&id=GD1tx&originHeight=1216&originWidth=832&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%85%83%E7%B4%A0%E5%8E%BB%E9%99%A4&width=370.66668701171875" style="width:410px;  title: 元素去除;"/>
+| 原照片                           | 去除元素                |
+| -------------------------------- | ----------------------- |
+| ![](assets/uQZJ7TP7lp_small.jpg) | ![](assets/removal.png) |
+
+
 
 
 ##### 5.4.3实现原理
 
-	提示词反推，删除额外的提示词，配合图片提示。再使用局部重绘。
+1. 提示词反推，删除额外的提示词，配合图片提示和文本提示实现
+2. 采用内外重绘，使用画笔涂抹需要去除的内容，方式使用默认即可，结合文本提示实现内容消除
 
 ##### 5.4.4 视频案例
 
-[https://www.bilibili.com/video/BV18m4y1x7VD](https://www.bilibili.com/video/BV18m4y1x7VD)
+- 主题: 如何使用SD消除图片中的文字或物体
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV18m4y1x7VD)
+- 博主: 万物熔炉
 
 ### 6. 线稿提取与着色
 
@@ -390,11 +433,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 6.1.3实现原理
 
-	利用图像提示的边缘检测，结合anime lineart style 动漫线条艺术风格，来实现线稿提取。
+1. 使用图像输入，利用图片提示中的边缘检测，配合线条艺术风格，输入文字提示，实现线稿提取
+2. 使用图像输入，利用图片提示中的边缘检测，配合Anime Lineart模型实现线稿提取
 
 ##### 6.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1T94y16753](https://www.bilibili.com/video/BV1T94y16753)
+- 主题: 线稿提取
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1T94y16753)
+- 博主: 虫虫飞乐园
 
 #### 6.2 照片转线稿
 
@@ -413,11 +459,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 6.1.3实现原理
 
-	通过图片提示 - 边缘检测，结合线稿风格。
+1. 使用图像输入，利用图片提示中的边缘检测，配合线条艺术风格，输入文字提示，实现线稿提取
+2. 使用图像输入，利用图片提示中的边缘检测，配合Anime Lineart模型实现线稿提取
 
 ##### 6.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1dg4y1K7L9](https://www.bilibili.com/video/BV1dg4y1K7L9)
+- 主题: 照片转线稿
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1dg4y1K7L9)
+- 博主: 斯九阳
 
 #### 6.3 插画线稿生成
 
@@ -431,11 +480,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 6.1.3实现原理
 
-	文本描述，添加线性风格和插画模型。
+​	采用文本提示，采用Anime Lineart模型配合线条格式实现图像生成
 
 ##### 6.1.4 视频案例
 
-[https://www.bilibili.com/video/BV18T411a77j](https://www.bilibili.com/video/BV18T411a77j)
+- 主题: 如何用Controlnet来创建线稿作品
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV18T411a77j)
+- 博主: 人工治障
 
 #### 6.4 建筑设计线稿生成
 
@@ -449,11 +500,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 6.1.3实现原理
 
-	文本描述，添加线性风格和插画模型。
+​	采用文本提示，采用Anime Lineart模型配合线条格式实现图像生成
 
 ##### 6.1.4 视频案例
 
-[https://www.bilibili.com/video/BV18T411a77j](https://www.bilibili.com/video/BV18T411a77j)
+- 主题: 如何用Controlnet来创建线稿作品
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV18T411a77j)
+- 博主: 人工治障
 
 #### 6.5 线稿着色
 ##### 6.1.1 场景说明
@@ -477,13 +530,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 6.1.3实现原理
 
-	通过图像提示，边缘检测，配合文本或者自动配色Lora实现。
+1. 在图片输入中，通过图像提示的边缘检测，配合文本提示实现配色
+2. 后续将添加recolor实现自动着色
 
 ##### 6.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1dC411s7Z1/](https://www.bilibili.com/video/BV1dC411s7Z1/)
-
-[https://www.bilibili.com/video/BV1dC411s7Z1/](https://www.bilibili.com/video/BV1dC411s7Z1/)
+- 主题: fooocus线稿上色
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1dC411s7Z1)
+- 博主: 是说新语111
 
 ### 7. 图像合成与拼接
 
@@ -501,15 +555,17 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 -  融合后
-![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604742500-0a1577a3-3c89-472d-944d-8e54bd2d46b9.png#averageHue=%23364028&id=ZR1GX&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604742500-0a1577a3-3c89-472d-944d-8e54bd2d46b9.png#averageHue=%23364028&id=ZR1GX&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="zoom: 50%;" />
 
 ##### 7.1.3实现原理
 
-	通过图像提示添加必要的提示词。
+​	图片输入中，通过输入多个图片实现自动融合，可以配合文本提示，实现更加定制化的输出
 
 ##### 7.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1iw4m1o7oF](https://www.bilibili.com/video/BV1iw4m1o7oF)
+- 主题: Fooocus进阶技巧 · 风格转绘，扩图，换脸
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1Br421x7uL/)
+- 博主: 魏岚Levi
 
 #### 7.2 图像拼接(全景图生成)
 
@@ -523,11 +579,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 7.2.3实现原理
 
-	多张图片结合文本提示。
+1. 获取多个角度的场景照片，通过图像输入，图片提示和文本提示配置角度和坐标实现融合
+2. 也可以通过图像输入，采用内外重绘中的左右扩展，实现全景图生成
 
 ##### 7.2.4 视频案例
 
-[https://www.bilibili.com/video/BV1Fz4y137Vk](https://www.bilibili.com/video/BV1Fz4y137Vk)
+- 主题:  360度全景图生成方法
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1Fz4y137Vk)
+- 博主: 坏心眼猫特效
 
 #### 7.3 元素替换与合成
 ##### 7.3.1 场景说明
@@ -540,7 +599,7 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
   | 原照片                                                       | 合成                                                         |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | ![](https://cdn.nlark.com/yuque/0/2024/webp/28014497/1711605026314-8d912f02-0d5f-4b40-878a-60a532bb8e5d.webp#averageHue=%233c8d3a&clientId=u0d9c7e8b-0018-4&from=ui&height=224&id=u641f58e6&originHeight=313&originWidth=500&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=14106&status=done&style=none&taskId=u67f6f853-d694-4e64-8235-77d39a68459&title=%E5%90%88%E6%88%90%E5%89%8D&width=358) | ![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604742884-e602db6e-47a5-4bf4-8ef2-42c14b715bb5.png#averageHue=%23488f43&height=308&id=Idr50&originHeight=406&originWidth=500&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%90%88%E6%88%90%E5%90%8E&width=379) |
+  | ![](https://cdn.nlark.com/yuque/0/2024/webp/28014497/1711605026314-8d912f02-0d5f-4b40-878a-60a532bb8e5d.webp#averageHue=%233c8d3a&clientId=u0d9c7e8b-0018-4&from=ui&height=224&id=u641f58e6&originHeight=313&originWidth=500&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=14106&status=done&style=none&taskId=u67f6f853-d694-4e64-8235-77d39a68459&title=%E5%90%88%E6%88%90%E5%89%8D&width=358) | <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1711604742884-e602db6e-47a5-4bf4-8ef2-42c14b715bb5.png#averageHue=%23488f43&height=308&id=Idr50&originHeight=406&originWidth=500&origintitleype=binary&ratio=1&rotation=0&showTitle=true&status=done&style=none&title=%E5%90%88%E6%88%90%E5%90%8E&width=379" style="zoom: 80%;" /> |
 
 * 案例二
 
@@ -550,13 +609,15 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 7.3.3实现原理
 
-	使用局部重绘配合文本实现。
+1. 在图像输入中，找到内外重绘，输入需要合成或者替换的图片
+2. 使用绘笔选中需要重绘的地方，在方法中选择Modify Content (add objects, change background, etc.)
+3. 在文本提示中，输入需要重绘的内容，实现图片输出
 
 ##### 7.3.4 视频案例
 
-[https://www.bilibili.com/video/BV16H4y177gG/](https://www.bilibili.com/video/BV16H4y177gG/)
-
-[https://www.bilibili.com/video/BV16H4y177gG/](https://www.bilibili.com/video/BV16H4y177gG/)
+- 主题:  fooocus亿点点技巧，换装技巧，换衣服，加帽子
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV16H4y177gG/)
+- 博主: 是说新语111
 
 #### 7.4 图像蒙版
 
@@ -573,11 +634,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 7.4.3实现原理
 
-	采用图像输入结合蒙版生成。
+​	在图像输入的内外重绘中，输入图片，使用重汇蒙版实现蒙版生成
 
 ##### 7.4.4 视频案例
 
-[https://www.bilibili.com/video/BV1mj411j7fv](https://www.bilibili.com/video/BV1mj411j7fv)
+- 主题: 局部重绘与蒙版重绘
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1mj411j7fv)
+- 博主: 原创ai绘画设计师
 
 ### 8. 动画与游戏
 
@@ -593,11 +656,15 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 8.1.3实现原理
 
-	通过文生图生成满意的图像，固定种子。生成多张图片实现整合。
+1. 通过文生图生成满意的图像，固定种子
+2. 在图像提示中，使用图像提示的脸部交换，配合文本提示实现角色一致性和动作、服装、背景等的生成
+3. 使用图片融合，后续加入Animediff等实现动画生成
 
 ##### 8.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1zS421A7PG](https://www.bilibili.com/video/BV1zS421A7PG)
+- 主题: AnimateDiff动画插件全方位教学
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1zS421A7PG)
+- 博主: Nenly
 
 #### 8.2 形象设计
 
@@ -611,11 +678,13 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 8.2.3实现原理
 
-	通过文本提示，通过BlindBox等Lora实现三视图。
+1. 通过文本提示，使用动漫大模型，配合BlindBox等3D LoRA实现三视图生成。
 
 ##### 8.2.4 视频案例
 
-[https://www.bilibili.com/video/BV1hs4y117qA](https://www.bilibili.com/video/BV1hs4y117qA)
+- 主题: 运用AI实现原创IP形象2D转3D效果
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1hs4y117qA)
+- 博主: 插画师小光sir
 
 #### 8.3 原画设计
 
@@ -629,11 +698,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 8.3.3实现原理
 
-	文本提示设计场景，添加形象的图像提示。
+1. 在图像输入，图片提示中输入形象设计的图片，并使用脸部交换
+2. 在文本提示中，生成场景信息
 
 ##### 8.3.4 视频案例
 
-[https://www.bilibili.com/video/BV1BN41137Fc](https://www.bilibili.com/video/BV1BN41137Fc)
+- 主题: 用SD四步生成游戏原画设计是什么感觉
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1BN41137Fc)
+- 博主: AI绘画小小皮
 
 #### 8.4 模型设计
 
@@ -647,11 +719,14 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 8.5.3实现原理
 
-	通过原画的元素和边缘检测，配合3Dlora实现。
+1. 在图像输入，图片提示中输入原画设计的图片，并使用脸部交换和内容元素
+2. 在文本提示中，并配合3D LoRa生成场景信息
 
 ##### 8.5.4 视频案例
 
-[https://www.bilibili.com/video/BV1BN41137Fc](https://www.bilibili.com/video/BV1BN41137Fc)
+- 主题: 用SD四步生成游戏原画设计是什么感觉
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1BN41137Fc)
+- 博主: AI绘画小小皮
 
 ### 9. 影视与娱乐
 
@@ -663,16 +738,19 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 9.1.2 效果展示
 
-| ![](assets/moviesence1.png) | ![](assets/moviesence 2.png) | ![](assets/moviesence.jpg) |
-| --------------------------- | ---------------------------- | -------------------------- |
+| ![](assets/moviesence1.png) | ![](assets/moviesence2.png) | ![](assets/moviesence.jpg) |
+| --------------------------- | --------------------------- | -------------------------- |
 
 ##### 9.1.3实现原理
 
-	通过文本提示输入，配合电影质感风格。
+	1. 通过文本提示输入，配合电影质感的风格实现图片生成，固定种子
+	1. 通过图像输入的图像提示，输入生成的图片并选中内容元素，实现同元素的多个场景
 
 ##### 9.1.4 视频案例
 
-[https://www.bilibili.com/video/BV1rk4y1W7YE/](https://www.bilibili.com/video/BV1rk4y1W7YE/)
+- 主题: 简单懒人可控StabelDiffusion AI辅助绘画场景细化
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1rk4y1W7YE/)
+- 博主: tianzi_天恣
 
 #### 9.2 电影特效设计
 
@@ -682,15 +760,18 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 9.2.2 效果展示
 
-![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148068206-e09d4049-6238-48c8-b647-b76b20d69a43.png#averageHue=%23a4a8a2&clientId=ubc288b41-3078-4&from=ui&id=u80c26681&originHeight=768&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=3990125&status=done&style=none&taskId=ucfdce6d8-5e5c-4d02-8e16-f5195333687&title=)
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1713148068206-e09d4049-6238-48c8-b647-b76b20d69a43.png#averageHue=%23a4a8a2&clientId=ubc288b41-3078-4&from=ui&id=u80c26681&originHeight=768&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=3990125&status=done&style=none&taskId=ucfdce6d8-5e5c-4d02-8e16-f5195333687&title=" style="zoom: 50%;" />
 
 ##### 9.2.3实现原理
 
-	通过文本提示输入，配合电影质感风格。
+ 	1. 通过文本提示输入，配合电影质感的风格实现图片生成，固定种子
+ 	2. 通过图像输入的图像提示，输入生成的图片并选中内容元素，实现同元素的多个场景
 
 ##### 9.2.4 视频案例
 
-[https://www.bilibili.com/video/BV1t84y1u7uJ](https://www.bilibili.com/video/BV1t84y1u7uJ)
+- 主题: 简单懒人可控StabelDiffusion AI辅助绘画场景细化
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1rk4y1W7YE/)
+- 博主: tianzi_天恣
 
 ### 10. 2D转3D
 
@@ -707,11 +788,14 @@ SimpleSDXL可以生成可以生成各种不同类型和风格的三维场景和�
 
 ##### 10.1.3实现原理
 
-	文本提示，配合3D Lora实现。
+ 	1. 通过文本提示输入，配合3D LoRA实现图片生成，固定种子
+ 	2. 通过图像输入的图像提示，输入生成的图片并选中内容元素，实现同元素的多个场景
 
 ##### 10.1.4 视频案例
 
-[https://www.bilibili.com/video/BV18e411Z7Qe](https://www.bilibili.com/video/BV18e411Z7Qe)
+- 主题: 手把手教你用AI把草图做成3D骨骼动画
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV18e411Z7Qe)
+- 博主: 设计师的AI工具箱
 
 #### 10.2 2D图像生成3D模型
 
@@ -727,11 +811,14 @@ SimpleSDXL可以将2D图像转换为逼真的3D模型，展示出模型的细节
 
 ##### 10.2.3实现原理
 
-	采用Rev 3D模型，配合图片提示实现。
+1. 在图像输入的图像提示中，在图像提示中，在脸部交换、内容元素、边缘检测和深度检测中输入图片并设置权重
+2. 采用原图片的模型配合RevAnimated模型实现3D图片生成
 
 ##### 10.2.4 视频案例
 
-[https://www.bilibili.com/video/BV1Va4y1T7BG](https://www.bilibili.com/video/BV1Va4y1T7BG)
+- 主题: 运用AI实现原创2d形象3D效果
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1Va4y1T7BG)
+- 博主: 插画师小光sir
 
 #### 10.3 3D场景渲染
 
@@ -741,16 +828,19 @@ SimpleSDXL能够自动提取图像特征，生成高质量的3D场景渲染结�
 
 ##### 10.3.2 效果展示
 
-| ![](assets/3dsence1.png) | ![](assets/3dsence2.png) |
-| ------------------------ | ------------------------ |
+| ![](assets/3dsence1.png) | <img src="assets/3dsence2.png" style="zoom:67%;" /> |
+| ------------------------ | --------------------------------------------------- |
 
 ##### 10.3.3实现原理
 
-	可以根据文本提示，结合3D Lora实现3D场景渲染；或者采用图片场景进行3D转换。
+1. 根据文本提示，结合3D Lora实现3D场景渲染；
+2. 在图片输入的图片提示中输入图片并配合3D模型实现图片生成
 
 ##### 10.3.4 视频案例
 
-[https://www.bilibili.com/video/BV18e411Z7Qe](https://www.bilibili.com/video/BV18e411Z7Qe)
+- 主题: 运用AI实现原创2d形象3D效果
+- 视频链接: [点击访问](https://www.bilibili.com/video/BV1Va4y1T7BG)
+- 博主: 插画师小光sir
 
 ### 11. AR & VR
 
@@ -765,7 +855,7 @@ SimpleSDXL可以生成高质量的AR/VR内容，实现逼真的光影效果、�
 
 ##### 11.1.3实现原理
 
-通过文本配合3D模型创作。
+​	通过文本提示并通过RevAnimated模型实现AR内容生成
 
 ##### 11.1.4 视频案例
 
@@ -783,7 +873,9 @@ SimpleSDXL可以将虚拟物体插入现实场景中，可以实现虚拟物体�
 
 ##### 11.2.3实现原理
 
-	采用图片重绘实现。
+	1. 在图像输入的内外重绘中，输入图片并设置方法为Modify Content (add objects, change background, etc.)
+	1. 在图像输入的图片提示中，在脸部交换、内容元素中输入AR内容并配置权重
+	1. 在内外重绘中勾选混合图片提示
 
 ##### 11.2.4 视频案例
 
@@ -797,9 +889,11 @@ SimpleSDXL可以生成高质量的沉浸式体验，展示出逼真的虚拟环�
 
 ##### 11.3.2 效果展示
 
+
+
 ##### 11.3.3实现原理
 
-	生成全景图，并配合图片重绘实现3D形象插入。
+​	生成全景图，并配合图片重绘实现3D形象插入
 
 ##### 11.3.4 视频案例
 
@@ -854,7 +948,7 @@ SimpleSDXL可以生成高质量的沉浸式体验，展示出逼真的虚拟环�
 * 案例一
   * 模特照片
 
-![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806897684-831039b0-5dab-4d06-991c-0f838da5d588.png#averageHue=%2333322f&clientId=uc16638a9-233f-4&from=drop&height=337&id=u4a728121&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1411225&status=done&style=none&taskId=u55b75981-cc4d-4025-9d08-5daf4b03d29&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=268.66668701171875)
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712806897684-831039b0-5dab-4d06-991c-0f838da5d588.png#averageHue=%2333322f&clientId=uc16638a9-233f-4&from=drop&height=337&id=u4a728121&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1411225&status=done&style=none&taskId=u55b75981-cc4d-4025-9d08-5daf4b03d29&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=268.66668701171875" style="zoom: 50%;" />
 
 | 原结婚照                                                     | 合成后                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -866,7 +960,7 @@ SimpleSDXL可以生成高质量的沉浸式体验，展示出逼真的虚拟环�
 
   * 模特照片
 
-    ![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816449119-ee803cc7-e1ed-4679-9088-85213bf2bccd.png#averageHue=%23424e53&clientId=uc16638a9-233f-4&from=drop&height=360&id=u9ddec574&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1360289&status=done&style=none&taskId=u24392841-c043-4a73-9aca-5fac1963503&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=286.66668701171875)
+    <img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712816449119-ee803cc7-e1ed-4679-9088-85213bf2bccd.png#averageHue=%23424e53&clientId=uc16638a9-233f-4&from=drop&height=360&id=u9ddec574&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1360289&status=done&style=none&taskId=u24392841-c043-4a73-9aca-5fac1963503&title=%E5%8E%9F%E7%85%A7%E7%89%87&width=286.66668701171875" style="zoom:50%;" />
 
   | 原婚纱照                                                     | 合成后                                                       |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -889,15 +983,19 @@ SimpleSDXL可以生成高质量的沉浸式体验，展示出逼真的虚拟环�
 
 * 原图片
 
-![原图片](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712826743584-053561a8-95bc-4db9-a749-aea943b2180e.png#averageHue=%23909896&clientId=uc16638a9-233f-4&from=drop&height=260&id=ucf35736b&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1332584&status=done&style=none&taskId=ud3c6af25-7dc7-4004-a6c4-5a1f1428bca&title=%E6%A8%A1%E7%89%B9%E5%A4%B4%E5%83%8F&width=333.66668701171875)
+<img src="https://cdn.nlark.com/yuque/0/2024/png/28014497/1712826743584-053561a8-95bc-4db9-a749-aea943b2180e.png#averageHue=%23909896&clientId=uc16638a9-233f-4&from=drop&height=260&id=ucf35736b&originHeight=896&originWidth=1152&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1332584&status=done&style=none&taskId=ud3c6af25-7dc7-4004-a6c4-5a1f1428bca&title=%E6%A8%A1%E7%89%B9%E5%A4%B4%E5%83%8F&width=333.66668701171875" alt="原图片" style="zoom:50%;" />
 
 | 服装                                                         | 试装                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![](https://cdn.nlark.com/yuque/0/2024/jpeg/28014497/1712826767561-0a30c6d7-b60d-453c-b7c0-6c0aa8dc76c3.jpeg#averageHue=%23f8f8f5&clientId=uc16638a9-233f-4&from=drop&height=350&id=u66b5c88b&originHeight=1389&originWidth=1389&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=261193&status=done&style=none&taskId=u06102634-5213-465d-8bcd-5aa07e10b1e&title=%E6%9C%8D%E8%A3%85&width=349.66668701171875) | ![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712826804707-eef32b60-f5be-46cb-a512-c47a47a31a75.png#averageHue=%236e88a6&clientId=uc16638a9-233f-4&from=drop&height=450&id=u49420e9e&originHeight=1144&originWidth=912&origintitleype=binary&ratio=1.5&rotation=0&showTitle=true&size=1513540&status=done&style=none&taskId=ubd52849f-0819-4879-9ad3-ed36e4d326f&title=%E8%99%9A%E6%8B%9F%E8%AF%95%E8%A3%85&width=358.66668701171875) |
 | ![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712829463101-59a6b04f-12fc-4714-8e74-11331d2ae7a1.png#averageHue=%23e2e1e2&clientId=uc16638a9-233f-4&from=drop&height=528&id=u4a4e6f4f&originHeight=516&originWidth=375&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=65641&status=done&style=none&taskId=u7f5f44cc-763b-4a92-aa33-48d0283fc0e&title=&width=384) | ![](https://cdn.nlark.com/yuque/0/2024/png/28014497/1712829437928-07b5b062-cdd1-446b-ab3b-532cb0a13e26.png#averageHue=%234e5549&clientId=uc16638a9-233f-4&from=drop&height=622&id=ue9f1443d&originHeight=1344&originWidth=704&origintitleype=binary&ratio=1.5&rotation=0&showTitle=false&size=1718053&status=done&style=none&taskId=u5d5821a9-6fd7-49d5-9e3b-60f59ecfb09&title=&width=326) |
 
-
 ##### 14.1.3 实现原理
+
+1. 在图像输入的图片提示中，输入模特的图片选择脸部交换并配置权重
+2. 在图像输入的图片提示中，输入衣服的图片选择边缘检测、内容元素并配置权重
+3. 在文本提示中输入必要的内容实现生成
+
 ##### 14.1.4 视频案例
 #### 14.2 虚拟试妆
 **巧用通配符**
@@ -917,4 +1015,32 @@ SimpleSDXL可以生成高质量的沉浸式体验，展示出逼真的虚拟环�
 
 ##### 14.2.3 实现原理
 
+1. 在图像输入的内外重绘中，使用画笔修改需要修改的区域
+2. 在方法中，根据需要修改的内容实现不同的选择
+3. 在附加提示词中添加需要修改后的内容
+4. 也可以采用通配符，实现多个图片的生成。
+
+​		通配符格式: 通配符: [__color__:L3:4] 从color里第4个词开始按顺序取3个词, [__color__:3] 从color中随机抽取3个词, [__color__] 从color中随机抽取1个词。
+
+​		在wildcards目录中，可以配置通配符的内容。
+
 ##### 14.2.4 视频案例
+
+### 15.微缩世界
+
+#### 15.1 微缩世界
+
+##### 15.1.1 场景说明
+
+在微缩世界的创作中，SimpleSDXL能够精准地捕捉并还原各种景物的细节和特色。无论是古老的城堡、繁华的都市，还是静谧的乡村、神秘的森林，AI绘画都能够以细腻入微的笔触，将这些景物以微缩的形式呈现出来。它不仅可以模拟出景物的形态和结构，还能够还原出光影、色彩和纹理等细节，使得微缩模型更加逼真、生动。
+
+##### 15.1.2 效果展示
+
+| ![](assets/weiju.png) | ![](assets/weiju2.png) |
+| --------------------- | ---------------------- |
+
+##### 15.1.3 实现原理
+
+1. 通过文本提示，输入关键字"微缩"、"移轴镜头"等实现微缩世界的生成
+
+##### 15.1.4 视频案例
