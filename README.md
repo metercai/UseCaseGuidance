@@ -2,7 +2,10 @@
 Provide guidance on how to use SimpleSDXL, know what it can do, what good results are, what methods are used, and where to learn more in-depth details.
 <br>提供有关如何使用SimpleSDXL的指导，了解它可以做什么，有什么好的结果，使用了什么方法，以及在哪里可以了解更深入的细节。
 
-* 场景目录
+* 完整场景目录
+1. [完整场景](https://github.com/metercai/UseCaseGuidance/blob/main/UseCaseGuidanceForSimpleSDXL.md)
+
+* 分场景目录
 0. [场景目录介绍](https://github.com/metercai/UseCaseGuidance/blob/main/sub/0.intr.md)
 1. [媒体创作](https://github.com/metercai/UseCaseGuidance/blob/main/sub/1.MediaCreation.md)
 2. [广告与营销](https://github.com/metercai/UseCaseGuidance/blob/main/sub/2.marketing.md)
@@ -20,6 +23,5 @@ Provide guidance on how to use SimpleSDXL, know what it can do, what good result
 14. [虚拟试妆与试衣](https://github.com/metercai/UseCaseGuidance/blob/main/sub/14.Markup.md)
 15. [微缩世界](https://github.com/metercai/UseCaseGuidance/blob/main/sub/15.Miniature.md)
 
-* 完整场景
-1. [完整场景](https://github.com/metercai/UseCaseGuidance/blob/main/UseCaseGuidanceForSimpleSDXL.md)
+
 
