@@ -652,13 +652,12 @@ SimpleSDXL可以根据用户的个性化喜好和社交平台的定位，生成�
 
 ##### 8.1.2 效果展示
 
-<img src="https://cdn.nlark.com/yuque/0/2024/gif/28014497/1711604742995-226b6d62-f5de-4304-ac85-858b7aee6365.gif#averageHue=%2377808b&id=UxDuY&originHeight=512&originWidth=512&origintitleype=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=" style="width:400px; float:left; title: 原图片;"/>
+![](assets/Animation_design.png)
 
 ##### 8.1.3实现原理
 
 1. 通过文生图生成满意的图像，固定种子
 2. 在图像提示中，使用图像提示的脸部交换，配合文本提示实现角色一致性和动作、服装、背景等的生成
-3. 使用图片融合，后续加入Animediff等实现动画生成
 
 ##### 8.1.4 视频案例
 
