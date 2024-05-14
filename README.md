@@ -19,12 +19,13 @@ Provide guidance on how to use SimpleSDXL, know what it can do, what good result
 10. [2D转3D](https://github.com/metercai/UseCaseGuidance/blob/main/sub/10.3D.md)
 11. [AR & VR](https://github.com/metercai/UseCaseGuidance/blob/main/sub/11.VR.md)
 12. [证件照生成](https://github.com/metercai/UseCaseGuidance/blob/main/sub/12.IDPhoto.md)
+13. [影楼写真](https://github.com/metercai/UseCaseGuidance/blob/main/sub/13.PhotoStudio.md)
+14. [虚拟试妆与试衣](https://github.com/metercai/UseCaseGuidance/blob/main/sub/14.Markup.md)
+15. [微缩世界](https://github.com/metercai/UseCaseGuidance/blob/main/sub/15.Miniature.md)
 
 * 常见问题解决方案
 1. [常见问题](https://github.com/metercai/UseCaseGuidance/blob/main/FAQ.md)
-14. [影楼写真](https://github.com/metercai/UseCaseGuidance/blob/main/sub/13.PhotoStudio.md)
-15. [虚拟试妆与试衣](https://github.com/metercai/UseCaseGuidance/blob/main/sub/14.Markup.md)
-16. [微缩世界](https://github.com/metercai/UseCaseGuidance/blob/main/sub/15.Miniature.md)
+
 
 
 
